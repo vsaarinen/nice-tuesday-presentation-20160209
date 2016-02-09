@@ -13,14 +13,16 @@ A presentation about building a [visualization](http://lucify.com/the-flow-towar
 
 ### Setup
 
-Get the [lucify-refugees code](https://gitlab.com/lucify/lucify-refugees) running on your local machine. Make ten snapshots of the code at different commits (hashes below) and serve these ten different versions locally on ports 3000, 3002, ...3018. I recommend using Git's new [worktree](https://git-scm.com/docs/git-worktree) command for this:
+This presentation displays 10 copies of the visualization at different points during its development process. It requires checking out 10 different versions of the visualization and running them on specific ports, which are then displayed via iframe in this presentation.
 
-```bash
-cd <path-to-lucify-refugees>
-mkdir versions
-git worktree add --detach versions/01-first-version master
-cd versions/01-first-version
-git checkout 84e9b97516adcdb349ed56fe679eea99750f7055
+Get the [lucify-refugees code](https://github.com/lucified/lucify-refugees) running on your local machine. Make ten snapshots of the code at different commits (hashes below) and serve these ten different versions locally on ports 3000, 3002, ...3018. I recommend using Git's new [worktree](https://git-scm.com/docs/git-worktree) command for this:
+
+```shell
+$ cd <path-to-lucify-refugees>
+$ mkdir versions
+$ git worktree add --detach versions/01-first-version master
+$ cd versions/01-first-version
+$ git checkout 84e9b97516adcdb349ed56fe679eea99750f7055
 <set up the repo with npm install, etc.>
 ```
 
