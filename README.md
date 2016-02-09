@@ -9,7 +9,7 @@ A presentation about building a [visualization](http://lucify.com/the-flow-towar
 
 ### Presented at
 
-- [Hacks/Hackers HKI](http://facebook.com/events/699745113494075/) (28.10.2015)
+- [Nice Tuesday Helsinki](http://www.nicetuesday.fi/) (9.2.2016)
 
 ### Setup
 
