@@ -13,7 +13,7 @@ A presentation about building a [visualization](http://lucify.com/the-flow-towar
 
 ### Setup
 
-This presentation displays 10 copies of the visualization at different points during its development process. It requires checking out 10 different versions of the visualization and running them on specific ports, which are then displayed via iframe in this presentation.
+This presentation displays 10 copies of the visualization at different points during its development process. It requires checking out 10 different versions of the visualization and running them on specific ports, which are then displayed via iframe in this presentation. If you are not interested in seeing the live demos, just open `index.html`.
 
 Get the [lucify-refugees code](https://github.com/lucified/lucify-refugees) running on your local machine. Make ten snapshots of the code at different commits (hashes below) and serve these ten different versions locally on ports 3000, 3002, ...3018. I recommend using Git's new [worktree](https://git-scm.com/docs/git-worktree) command for this:
 
